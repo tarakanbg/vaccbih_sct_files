@@ -1,7 +1,8 @@
 # Changelog
 
-**Caution! These files are only usable with _Euroscope_ and are no longer compatible with VRC!
-For VRC use the old 0904 version.**
+**Caution! These files are only usable with _Euroscope_ and are no longer compatible with VRC!**
+
+**For VRC use the old 0904 version.**
 
 ## v. 1208
 * fully optimized for Euroscope, removed all entries only required by VRC; modified existing entries to be able
