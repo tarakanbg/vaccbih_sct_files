@@ -1,10 +1,14 @@
 # Changelog
 
+** Caution! These files are only usable with _Euroscope_ and are not compatible with VRC!
+For VRC use the old 0904 version. **
+
 ## v. 1208
 * fully optimized for Euroscope, removed all entries only required by VRC; modified existing entries to be able
-  to use more ES advanced features
+  to use more ES advanced features.
 * LQSA SIDS/STARS are completely rewokred: tracks can now be displayed on radar (Display Settings > Sids),
-  can be assigned via dropdown menu, all designators are updated to current airac
+  can be assigned via dropdown menu, all designators are updated to current airac. Interim waypoints in
+  SIDs can now be displayed along the route of tagged a/c and used for time prediction, coordination and directs.
 * Completely reworked runways section. Runways for different airports can be displayed or hidden
   individually (Display Settings) and also assigned correctly via the Active Airport / Runway Selector dialog.
 * adjusted accurate sq ranges for all BiH airports
@@ -18,6 +22,8 @@
 
 ## Installation
 
+### Upgrading from version 0904
+
 **Remove following files:**
 
 * LQSBV1.4.POF
@@ -29,4 +35,5 @@
 
 * LQSB.sct
 * LQSB.ese
-* LQSB.POF
+
+_** With Euroscope you DON'T NEED rwy and pof files **_
