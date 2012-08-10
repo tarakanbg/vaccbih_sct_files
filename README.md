@@ -10,6 +10,11 @@
 * adjusted accurate sq ranges for all BiH airports
 * removed waypoints/navaids: SAR VOR
 * added waypoints/navaids: OMA VOR
+* removed all airports and runways outside BiH
+* 2-letter identifier for planes tracked by Zagreb Radar changed from 11/12/13 to ZA/ZR/ZG
+* removed procedures: STAR:LQSA:12:VINCE + all procedures outside BiH
+* removed from ESE file: all CTR/TMA info which is not relevant for BiH traffic: Budapest, Vienna, Ljubljana,
+  Milano, Brindisi, Pula, Rijeka, Zadar, Brac (this only affects tracking, handoffs and coordination)
 
 ## Installation
 
