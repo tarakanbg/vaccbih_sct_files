@@ -2,7 +2,7 @@
 
 ## 1208
 * fully optimized for Euroscope, removed all entries only required by VRC
-* SIDS/STARS are completely rewokred: tracks can be displayed on radar, can be assigned
+* LQSA SIDS/STARS are completely rewokred: tracks can be displayed on radar, can be assigned
   via dropdown menu, all designators are updated to current airac
 * removed waypoints/navaids: SAR VOR
 * added waypoints/navaids: OMA VOR
