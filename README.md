@@ -18,6 +18,8 @@
   Required vis ranges to match the preset centers: APP: 50 nm; TWR: 35 nm; GND: 10 nm. Vis centers can always be
   overriden in ES.
 * adjusted accurate sq ranges for all BiH airports
+* when logging on any LQSA station (APP, TWR, GND) LQSA Metar will automatically be loaded in your list of metars (no
+  need to press F2 and add it manually in the start of the session)
 * removed waypoints/navaids: SAR VOR
 * added waypoints/navaids: OMA VOR
 * removed all airports and runways outside BiH
