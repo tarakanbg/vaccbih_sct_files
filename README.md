@@ -1,17 +1,27 @@
 # Changelog
 
-## 1208
-* fully optimized for Euroscope, removed all entries only required by VRC
-* LQSA SIDS/STARS are completely rewokred: tracks can be displayed on radar, can be assigned
-  via dropdown menu, all designators are updated to current airac
+## v. 1208
+* fully optimized for Euroscope, removed all entries only required by VRC; modified existing entries to be able
+  to use more ES advanced features
+* LQSA SIDS/STARS are completely rewokred: tracks can now be displayed on radar (Display Settings > Sids),
+  can be assigned via dropdown menu, all designators are updated to current airac
+* Completely reworked runways section. Runways for different airports can be displayed or hidden
+  individually (Display Settings) and also assigned correctly via the Active Airport / Runway Selector dialog.
+* adjusted accurate sq ranges for all BiH airports
 * removed waypoints/navaids: SAR VOR
 * added waypoints/navaids: OMA VOR
-* accurate sq ranges for all BiH airports
 
 ## Installation
 
-Remove following files:
+**Remove following files:**
+
 * LQSBV1.4.POF
 * LQSB_0904.ese
 * LQSB_0904.rwy
 * LQSB_0904.sct
+
+**Replace with the files from this package:**
+
+* LQSB.sct
+* LQSB.ese
+* LQSB.POF
