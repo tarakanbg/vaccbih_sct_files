@@ -42,7 +42,7 @@ For VRC use the old 0904 version. **
 
 Now you can open the new LQSB sector file in your Euroscope.
 
-_** With Euroscope you DON'T NEED rwy and pof files **_
+___ With Euroscope you DON'T NEED rwy and pof files **___
 
 _**NOTE:** Because of the new sector file, you'll need to reconfigure your ES display
 options and re-create your Radar display views (asr files). This is a one time only operation
