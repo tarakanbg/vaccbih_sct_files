@@ -20,12 +20,16 @@
 * adjusted accurate sq ranges for all BiH airports
 * when logging on any LQSA station (APP, TWR, GND) LQSA Metar will automatically be loaded in your list of metars (no
   need to press F2 and add it manually in the start of the session)
+* changed colour of LQSA radar minimums areas to teal to avoid overlapping with the extened centerline and vectoring grid
 * removed waypoints/navaids: SAR VOR
 * added waypoints/navaids: OMA VOR
 * removed all airports and runways outside BiH
 * removed procedures: STAR:LQSA:12:VINCE + all procedures outside BiH
 * removed from ESE file: all CTR/TMA info which is not relevant for BiH traffic: Budapest, Vienna, Ljubljana,
   Milano, Brindisi, Pula, Rijeka, Zadar, Brac (this only affects tracking, handoffs and coordination)
+
+#### LQSA Ground Layout changes:
+* moved taxiway B to its proper position and adjusted its shape. It now matches exactly latest scenery by Dragomir.
 
 ## Installation
 
