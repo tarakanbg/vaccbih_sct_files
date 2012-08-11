@@ -18,8 +18,8 @@
   **Required vis ranges** to match the preset centers: APP: 50 nm; TWR: 35 nm; GND: 10 nm. Approximate visibility radius
   around LQSA with these settings is: GND: 18nm, TWR: 60nm, APP: 90nm. Vis centers can always be overriden in ES.
 * adjusted accurate sq ranges for all BiH airports
-* when logging on LQSA TWR or APP station LQSA Metar will automatically be loaded in your list of metars (no
-  need to press F2 and add it manually in the start of the session)
+* when logging on any LQSA station and selecting the airport as avtive, LQSA Metar will automatically be loaded
+  in your list of metars (no need to press F2 and add it manually in the start of the session)
 * changed colour of LQSA radar minimums areas to teal to avoid overlapping with the extened centerline and vectoring grid
 * removed waypoints/navaids: SAR VOR
 * added waypoints/navaids: OMA VOR
