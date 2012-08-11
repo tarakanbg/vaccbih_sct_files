@@ -63,7 +63,7 @@ Now you can open the new LQSB sector file in your Euroscope.
 in ES. Some features are useful for newbie ATCs and not needed for advanced controllers, and sometimes it's the opposite.
 Choose according to your taste and needs.
 
-__ With Euroscope you DON'T NEED rwy and pof files __
+__With Euroscope you DON'T NEED rwy and pof files__
 
 _**NOTE:** Because of the new sector file, you'll need to reconfigure your ES display
 options and re-create your Radar display views (asr files). This is a one-time only operation
