@@ -26,7 +26,7 @@
   **Required vis ranges** to match the preset centers: APP: 50 nm; TWR: 35 nm; GND: 10 nm. Approximate visibility radius
   around LQSA with these settings is: GND: 18nm, TWR: 60nm, APP: 90nm. Vis centers can always be overriden in ES.
 * adjusted accurate sq ranges for all BiH airports
-* when logging on any LQSA station and selecting the airport as avtive, LQSA Metar will automatically be loaded
+* when logging on any LQSA station and selecting the airport as active, LQSA Metar will automatically be loaded
   in your list of metars (no need to press F2 and add it manually in the start of the session)
 * changed colour of LQSA radar minimums areas to teal to avoid overlapping with the extened centerline and vectoring grid
 * removed waypoints/navaids: SAR VOR
@@ -39,11 +39,11 @@
 
 #### LQSA Ground Layout changes:
 * completely reworked parking positions: all major and minor stands are drawn on their exact positions, matching
-  latest scenery by Dragomir. Major stands are yellow, minor stands are red.
+  latest scenery by Dragomir Andonovic. Major stands are yellow, minor stands are red.
 * added parking position designators for all major and minor  that can be shown or hidden individually
   (Display Options > Freetext)
-* moved taxiways B and C to their proper position and adjusted their shapes. They now matches exactly
-  latest scenery by Dragomir.
+* moved taxiways B and C to their proper position and adjusted their shapes. They now match exactly
+  latest scenery by Dragomir Andonovic.
 * apron redrawn and extended to the NW to match the RL layout and the latest scenery
 * added hold short lines for A, B, and C, matching latest scenery
 * added taxiway designators, that can be displayed through the Display Options > Freetext dialog
