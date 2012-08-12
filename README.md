@@ -4,6 +4,9 @@
 
 **For VRC use the old 0904 version.**
 
+## v. 1209
+
+
 ## v. 1208
 * fully optimized for Euroscope, removed all entries only required by VRC; modified existing entries to be able
   to use more ES advanced features.
@@ -42,6 +45,15 @@
 * added rwy designators and TORA values (Display Options > Freetext)
 
 ## Installation
+
+### Upgrading from version 1208
+
+**Replace your local `sct` and `ese` files with the files from this package:**
+
+* LQSB.sct
+* LQSB.ese
+
+Go through your Euroscope > Display Options to enable/disable new features
 
 ### Upgrading from version 0904
 
