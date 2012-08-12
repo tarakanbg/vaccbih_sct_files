@@ -6,6 +6,11 @@
 
 ## v. 1209
 
+* GEO area is now divided into sub-areas that can be displayed or hidden individually (Display Settings > GEO).
+  Previously all GEO could only be displayed or hidden at once. The new GEO areas are as follows: LQSA Ground,
+  LQSA MSA Sectors, Timid Holding, LQSA DME arc, LQBK Ground, LQMO Ground
+* minor adjustements to LQSA station data
+
 
 ## v. 1208
 * fully optimized for Euroscope, removed all entries only required by VRC; modified existing entries to be able
