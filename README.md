@@ -8,8 +8,8 @@
 
 ### Global changes
 * GEO area is now divided into sub-areas that can be displayed or hidden individually (Display Settings > GEO).
-  Previously all GEO could only be displayed or hidden at once. The new GEO areas are as follows: LQSA Ground,
-  LQSA MSA Sectors, Timid Holding, LQSA DME arc, LQBK Ground, LQMO Ground
+  Previously all GEO could only be displayed or hidden at once. The new GEO areas are as follows: LQSA Ground, LQSA
+  Major Stands, LQSA Minor Stands, LQSA MSA Sectors, LQBK Ground, LQMO Ground
 * Renamed ARTCC and ARTCC High Areas to more human-readable names (Display options > ARTCC boundary, ARTCC high
   boundary to enable). The FIRs affected and their new names are: LDZO FIR, LYBA FIR, LQSB FIR, LQSB TMAs,
   PRISHTINA FIR/UIR
@@ -20,9 +20,16 @@
 * LQSA_GND position now has its own dedicated mini "sector" in ES. This allows the position to be associated with LQSA
   airport and the airport will be marked as active and latest metar loaded upon logging as GND. Just like TWR and APP.
   You can see how it looks on [this picture](http://imgur.com/6tk2B).
+* The track of the ILS Y 12 approach and Timid holding is no longer defined as GEO. It is now a STAR and can be
+  optionally displayed or hidden (Display Options > Stars). Also you can choose the line style, color and thickness
+  via the Symbology options. It could look for example [like this](http://imgur.com/9HZ8c).
 * LQSA MSA values are no longer defined as fixes, they are now freetext (Display Options > Freetext) and can be
   enabled/disabled as a group or individually
 * Added the second hold short line on A for LQSA
+* Added stand 11D
+* Stand markings for all major stands or minor stands can be optionally displayed or hidden independent on the ground
+  layout (Display Options > GEO > LQSA Minor Stands, LQSA Major Stands)
+* The taxiway letters are now displayed ON the taxiways and not next to them
 * minor adjustements to LQSA station data
 
 
