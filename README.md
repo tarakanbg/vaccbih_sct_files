@@ -15,6 +15,7 @@
   PRISHTINA FIR/UIR
 * Renamed ARTCC Low Areas to more human-readable names (Display options > ARTCC low boundary to enable). The zones
   affected and their new names are: LQSA Control Zone, LQMO Control Zone, LQBK Control Zone, LQBK TCA
+* Added navaids: AS NDB, SAR NDB, GAC NDB, NA NDB
 
 ### LQSA changes
 * LQSA_GND position now has its own dedicated mini "sector" in ES. This allows the position to be associated with LQSA
@@ -23,6 +24,8 @@
 * The track of the ILS Y 12 approach and Timid holding is no longer defined as GEO. It is now a STAR and can be
   optionally displayed or hidden (Display Options > Stars). Also you can choose the line style, color and thickness
   via the Symbology options. It could look for example [like this](http://imgur.com/9HZ8c).
+* Added the tracks for all instrument LQSA approaches (ILS Y, NDB Y (same track), ILS Z, NDB Z(same track), Rudar Visual).
+  These tracks are defined as STARs and can be hidden or displayed via Display Options > Stars
 * LQSA MSA values are no longer defined as fixes, they are now freetext (Display Options > Freetext) and can be
   enabled/disabled as a group or individually
 * Added the second hold short line on A for LQSA
@@ -30,6 +33,7 @@
 * Stand markings for all major stands or minor stands can be optionally displayed or hidden independent on the ground
   layout (Display Options > GEO > LQSA Minor Stands, LQSA Major Stands)
 * The taxiway letters are now displayed ON the taxiways and not next to them
+* Adjusted the shape of the final segment of the KEB 18 DME Arc to now longer deviate from the extended runway centerline
 * minor adjustements to LQSA station data
 
 
