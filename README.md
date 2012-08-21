@@ -6,9 +6,23 @@
 
 ## v. 1209
 
+### Global changes
 * GEO area is now divided into sub-areas that can be displayed or hidden individually (Display Settings > GEO).
   Previously all GEO could only be displayed or hidden at once. The new GEO areas are as follows: LQSA Ground,
   LQSA MSA Sectors, Timid Holding, LQSA DME arc, LQBK Ground, LQMO Ground
+* Renamed ARTCC and ARTCC High Areas to more human-readable names (Display options > ARTCC boundary, ARTCC high
+  boundary to enable). The FIRs affected and their new names are: LDZO FIR, LYBA FIR, LQSB FIR, LQSB TMAs,
+  PRISHTINA FIR/UIR
+* Renamed ARTCC Low Areas to more human-readable names (Display options > ARTCC low boundary to enable). The zones
+  affected and their new names are: LQSA Control Zone, LQMO Control Zone, LQBK Control Zone, LQBK TCA
+
+### LQSA changes
+* LQSA_GND position now has its own dedicated mini "sector" in ES. This allows the position to be associated with LQSA
+  airport and the airport will be marked as active and latest metar loaded upon logging as GND. Just like TWR and APP.
+  You can see how it looks on [this picture](http://imgur.com/6tk2B).
+* LQSA MSA values are no longer defined as fixes, they are now freetext (Display Options > Freetext) and can be
+  enabled/disabled as a group or individually
+* Added the second hold short line on A for LQSA
 * minor adjustements to LQSA station data
 
 
@@ -58,7 +72,7 @@
 * LQSB.sct
 * LQSB.ese
 
-Go through your Euroscope > Display Options to enable/disable new features
+*Go through your Euroscope > Display Options to enable/disable new features*
 
 ### Upgrading from version 0904
 
@@ -80,7 +94,7 @@ Now you can open the new LQSB sector file in your Euroscope.
 in ES. Some features are useful for newbie ATCs and not needed for advanced controllers, and sometimes it's the opposite.
 Choose according to your taste and needs.
 
-__With Euroscope you DON'T NEED rwy and pof files__
+__With Euroscope you DON'T NEED pof files and a new rwy file will be automatically generated based on the new sector file.__
 
 _**NOTE:** Because of the new sector file, you'll need to reconfigure your ES display
 options and re-create your Radar display views (asr files). This is a one-time only operation
