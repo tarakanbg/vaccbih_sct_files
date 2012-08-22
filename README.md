@@ -15,7 +15,7 @@
   PRISHTINA FIR/UIR
 * Renamed ARTCC Low Areas to more human-readable names (Display options > ARTCC low boundary to enable). The zones
   affected and their new names are: LQSA Control Zone, LQMO Control Zone, LQBK Control Zone, LQBK TCA
-* Added navaids: AS NDB, SAR NDB, GAC NDB, NA NDB
+* Added navaids: AS NDB, SAR NDB, GAC NDB, NA NDB, MA NDB, ZV NDB
 
 ### LQSA changes
 * LQSA_GND position now has its own dedicated mini "sector" in ES. This allows the position to be associated with LQSA
@@ -26,8 +26,8 @@
   via the Symbology options. It could look for example [like this](http://imgur.com/9HZ8c).
 * Added the tracks for all instrument LQSA approaches (ILS Y, NDB Y (same track), ILS Z, NDB Z(same track), Rudar Visual).
   These tracks are defined as STARs and can be hidden or displayed via Display Options > Stars
-* LQSA MSA values are no longer defined as fixes, they are now freetext (Display Options > Freetext) and can be
-  enabled/disabled as a group or individually
+* LQSA Minimum Radar Altitude (MRA) values are no longer defined as fixes, they are now freetext (Display Options > Freetext)
+  and can be enabled/disabled as a group or individually
 * Added the second hold short line on A for LQSA
 * Added stand 11D
 * Stand markings for all major stands or minor stands can be optionally displayed or hidden independent on the ground
@@ -36,6 +36,11 @@
 * Adjusted the shape of the final segment of the KEB 18 DME Arc to now longer deviate from the extended runway centerline
 * minor adjustements to LQSA station data
 
+### LQMO changes
+* SIDS are completely rewokred: all SID tracks can now be displayed on radar (Display Settings > Sids),
+  can be assigned via dropdown menu, all designators are up-to-date with current airac. Interim waypoints in
+  SIDs can now be displayed along the route of tagged a/c and used for time prediction, coordination and directs.
+  Screenshot of LQMO TMA with all 1A SIDS displayed: [here](http://imgur.com/Spe0h).
 
 ## v. 1208
 * fully optimized for Euroscope, removed all entries only required by VRC; modified existing entries to be able
