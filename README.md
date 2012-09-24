@@ -1,10 +1,12 @@
+# vACCBiH sector/ese files for Euroscope
+
 # Changelog
 
 **Caution! These files are only usable with _Euroscope_ and are no longer compatible with VRC!**
 
 **For VRC use the old 0904 version.**
 
-## v. 1209
+## v. 1210
 
 ### Global changes
 * GEO area is now divided into sub-areas that can be displayed or hidden individually (Display Settings > GEO).
@@ -41,6 +43,7 @@
   can be assigned via dropdown menu, all designators are up-to-date with current airac. Interim waypoints in
   SIDs can now be displayed along the route of tagged a/c and used for time prediction, coordination and directs.
   Screenshot of LQMO TMA with all 1A SIDS displayed: [here](http://imgur.com/Spe0h).
+  Another screenshot of LQMO TMA with all 1B SIDS displayed: [click here](http://imgur.com/hbphn).
 
 ## v. 1208
 * fully optimized for Euroscope, removed all entries only required by VRC; modified existing entries to be able
