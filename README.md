@@ -17,7 +17,8 @@
   PRISHTINA FIR/UIR
 * Renamed ARTCC Low Areas to more human-readable names (Display options > ARTCC low boundary to enable). The zones
   affected and their new names are: LQSA Control Zone, LQMO Control Zone, LQBK Control Zone, LQBK TCA
-* Added navaids: AS NDB, SAR NDB, GAC NDB, NA NDB, MA NDB, ZV NDB
+* Removed navaids: TUZ VOR
+* Added navaids: TZU VOR, AS NDB, SAR NDB, GAC NDB, NA NDB, MA NDB, ZV NDB
 
 ### LQSA changes
 * LQSA_GND position now has its own dedicated mini "sector" in ES. This allows the position to be associated with LQSA
@@ -36,6 +37,9 @@
   layout (Display Options > GEO > LQSA Minor Stands, LQSA Major Stands)
 * The taxiway letters are now displayed ON the taxiways and not next to them
 * Adjusted the shape of the final segment of the KEB 18 DME Arc to now longer deviate from the extended runway centerline
+* Changed the preset visiblity centers of LQSA_APP position. Please increase vis range for that position to at least 99nm
+to achieve the desired result. With the new vis settings you'll have vis of more than 150 nm around LQSA, including all
+other BiH airfields
 * minor adjustements to LQSA station data
 
 ### LQMO changes
@@ -56,8 +60,8 @@
 * Reworked positions information for all LQSA stations and Zagreb Radar. More detailed info will be visible in the
   tags of the tracked aircraft. Improved identifiers.
 * 4 visibility centers are now associated and automatically activated upon login for all LQSA positions (APP, TWR, GND).
-  **Required vis ranges** to match the preset centers: APP: 50 nm; TWR: 35 nm; GND: 10 nm. Approximate visibility radius
-  around LQSA with these settings is: GND: 18nm, TWR: 60nm, APP: 90nm. Vis centers can always be overriden in ES.
+  **Required minimum vis ranges** to match the preset centers: APP: 99 nm; TWR: 35 nm; GND: 10 nm. Approximate visibility radius
+  around LQSA with these settings is: GND: 18nm, TWR: 60nm, APP: 150nm. Vis centers can always be overriden in ES.
 * adjusted accurate sq ranges for all BiH airports
 * when logging on any LQSA station and selecting the airport as active, LQSA Metar will automatically be loaded
   in your list of metars (no need to press F2 and add it manually in the start of the session)
@@ -118,3 +122,4 @@ __With Euroscope you DON'T NEED pof files and a new rwy file will be automatical
 _**NOTE:** Because of the new sector file, you'll need to reconfigure your ES display
 options and re-create your Radar display views (asr files). This is a one-time only operation
 when upgrading from v. 0904 and you won't need to do it again for later versions._
+
