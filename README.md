@@ -11,7 +11,7 @@
 ### Global changes
 * GEO area is now divided into sub-areas that can be displayed or hidden individually (Display Settings > GEO).
   Previously all GEO could only be displayed or hidden at once. The new GEO areas are as follows: LQSA Ground, LQSA
-  Major Stands, LQSA Minor Stands, LQSA MSA Sectors, LQBK Ground, LQMO Ground
+  Major Stands, LQSA Minor Stands, LQSA MSA Sectors, LQBK Ground, LQMO Ground, LQMO Stands
 * Renamed ARTCC and ARTCC High Areas to more human-readable names (Display options > ARTCC boundary, ARTCC high
   boundary to enable). The FIRs affected and their new names are: LDZO FIR, LYBA FIR, LQSB FIR, LQSB TMAs,
   PRISHTINA FIR/UIR
