@@ -6,6 +6,35 @@
 
 **For VRC use the old 0904 version.**
 
+## v. 1211
+
+### Global changes
+* Added navaids: KOS NDB
+
+### LQBK (Banja Luka) changes
+* New GEO region: "LQBK Stands" to enable or disable the display of the parking positions in LQBK (Display Settings > GEO).
+* Added hold short lines on A and B matching current scenery. Revamped LQBK ground can be seen [here](http://imgur.com/bVuBW)
+* added parking position designators for all stands that can be shown or hidden individually
+  (Display Options > Freetext)
+* added taxiway designators, that can be displayed through the Display Options > Freetext dialog
+* added rwy designators and TORA values (Display Options > Freetext)
+* SIDS are completely rewokred: all SID tracks can now be displayed on radar (Display Settings > Sids),
+  can be assigned via dropdown menu, all designators and tracks are up-to-date with current airac. Interim waypoints in
+  SIDs can now be displayed along the route of tagged a/c and used for time prediction, coordination and directs.
+  Screenshot of LQBK TMA with all SIDs displayed: [here](http://imgur.com/AADSv).
+* Added all arrival routes (STAR) to BLK NDB from TEBLI, KOMAR (OMA), DER, BOSNA. STAR tracks can now be displayed on radar (Display Settings > STARS),
+  can be assigned via dropdown menu, all designators and tracks are up-to-date with current airac. Interim waypoints in
+  STARs can now be displayed along the route of tagged a/c and used for time prediction, coordination and directs.
+* Added the tracks for the ILS Z approach (via LU).  This track is defined as STAR and can be hidden or displayed
+  via Display Options > Stars. Picture of all SIDs, STARs and ILS app track [here](http://imgur.com/hVin5)
+* ATC position information updated and converted to ES format. 4 visibility centers are now associated and automatically activated
+  upon login for both LQBK positions (APP, TWR). **Required minimum vis ranges** to match the preset centers:
+  APP: 99 nm; TWR: 35 nm
+* Default sector ownership logic changed to assign LQBK sectors to LQSA_APP in case Sarajevo Radar is online and there
+  are no LQBK stations connected. This is to make it easier to implement our idea of covering all BiH airports procedurally
+  from LQSA_APP when no other stations are connected. This behaviour can be overriden manually in ES via the Active Airport
+  selector window and the Sector ownership menu.
+
 ## v. 1210
 
 ### Global changes
@@ -20,7 +49,7 @@
 * Removed navaids: TUZ VOR
 * Added navaids: TZU VOR, AS NDB, SAR NDB, GAC NDB, NA NDB, MA NDB, ZV NDB
 
-### LQSA changes
+### LQSA (Sarajevo) changes
 * LQSA_GND position now has its own dedicated mini "sector" in ES. This allows the position to be associated with LQSA
   airport and the airport will be marked as active and latest metar loaded upon logging as GND. Just like TWR and APP.
   You can see how it looks on [this picture](http://imgur.com/6tk2B).
@@ -43,7 +72,7 @@
   other BiH airfields
 * minor adjustements to LQSA station data
 
-### LQMO changes
+### LQMO (Mostar) changes
 * Completely new redrawn LQMO ground to match latest AFCAD and scenery by Dragomir Andonovic. You can see a comparison
   between the old default ground (blue) and the raw version of the new ground (green) [here](http://imgur.com/DKFlE).
   Final version of new LQMO ground can be seen [here](http://imgur.com/tHsPP)
@@ -54,12 +83,12 @@
 * added taxiway designators, that can be displayed through the Display Options > Freetext dialog
 * added rwy designators and TORA values (Display Options > Freetext)
 * SIDS are completely rewokred: all SID tracks can now be displayed on radar (Display Settings > Sids),
-  can be assigned via dropdown menu, all designators are up-to-date with current airac. Interim waypoints in
+  can be assigned via dropdown menu, all designators and tracks are up-to-date with current airac. Interim waypoints in
   SIDs can now be displayed along the route of tagged a/c and used for time prediction, coordination and directs.
   Screenshot of LQMO TMA with all 1A SIDS displayed: [here](http://imgur.com/Spe0h).
   Another screenshot of LQMO TMA with all 1B SIDS displayed: [click here](http://imgur.com/hbphn).
 * Added the tracks for both instrument LQMO approaches (VOR A, NDB A).  These tracks are defined
-  as STARs and can be hidden or displayed via Display Options > Stars. Pictue of the VOR app track [here](http://imgur.com/zPEyv)
+  as STARs and can be hidden or displayed via Display Options > Stars. Picture of the VOR app track [here](http://imgur.com/zPEyv)
 * 4 visibility centers are now associated and automatically activated upon login for both LQMO positions (APP, TWR).
   **Required minimum vis ranges** to match the preset centers: APP: 99 nm; TWR: 35 nm;
 * Default sector ownership logic changed to assign LQMO sectors to LQSA_APP in case Sarajevo Radar is online and there
