@@ -4,7 +4,7 @@
 
 **Caution! These files are only usable with _Euroscope_ and are no longer compatible with VRC!**
 
-**For VRC use the old 0904 version.**
+**For VRC use [this version](https://github.com/tarakanbg/vaccbih_vrc_files).**
 
 ## v. 1211
 
@@ -22,8 +22,7 @@
   can be assigned via dropdown menu, all designators and tracks are up-to-date with current airac. Interim waypoints in
   SIDs can now be displayed along the route of tagged a/c and used for time prediction, coordination and directs.
   Screenshot of LQBK TMA with all SIDs displayed: [here](http://imgur.com/AADSv).
-* Added all arrival routes (STAR) to BLK NDB from TEBLI, KOMAR (OMA), DER, BOSNA. STAR tracks can now be displayed on radar (Display Settings > STARS),
-  can be assigned via dropdown menu, all designators and tracks are up-to-date with current airac. Interim waypoints in
+* Added all arrival routes (STAR) to BLK NDB from TEBLI, KOMAR (OMA), DER, BOSNA. STAR tracks can now be displayed on radar (Display Settings > STARS), can be assigned via dropdown menu, all designators and tracks are up-to-date with current airac. Interim waypoints in
   STARs can now be displayed along the route of tagged a/c and used for time prediction, coordination and directs.
 * Added the tracks for the ILS Z approach (via LU).  This track is defined as STAR and can be hidden or displayed
   via Display Options > Stars. Picture of all SIDs, STARs and ILS app track [here](http://imgur.com/hVin5)
